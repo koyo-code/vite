@@ -2,7 +2,11 @@
 
 ![viteロゴ](./src/images/vite.png)
 
-## インクルードの書き方
+## 目次
+
+- [インクルードの代替](#include)
+
+<h2 id="include">インクルードの代替</h2>
 
 **components ディレクトリ**の中に **parts.html** を作る。
 読み込みたい箇所に **{{> parts}}**
