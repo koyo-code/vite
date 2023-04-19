@@ -9,6 +9,10 @@
 - [下層ページ制作方法](#sub-page)
 - [外部ファイルの読み込みについて](#other-file)
 - [ルートパスの使用方法について](#root-path)
+- [制作ディレクトリ](#src)
+- [IP で接続したい場合](#ip)
+- [npm を使用して開発したい場合](#npm)
+- [npm script 一覧](#npm-script)
 
 <h2 id="include">インクルードの代替</h2>
 
@@ -41,24 +45,24 @@ src ディレクトリが親ディレクトリになります。
 [BAD]<br>
 /src/about/index.html
 
-## 制作ディレクトリ
+<h2 id="src">制作ディレクトリー</h2>
 
 src ディレクトリ内で制作する
 dist ディレクトリ内は触らない
 
-## IP で接続したい場合
+<h2 id="ip">IPで接続したい場合</h2>
 
 1. ( .env )ファイルの作成。
 2. NETWORK_IP=IP アドレスを入力する　(npm run dev したときの Network に出てくる)
 
 デフォルトではローカルホストにつながるようにしています。
 
-### npm(gsap や swiper の使い方)
+<h2 id="npm">npmを使用して開発したい場合</h2>
 
 1. パッケージのインストール。ターミナルで **npm i gsap**
 2. 使用したい js ファイルの先頭に**import gsap from "gsap"**。
 
-## npm script
+<h2 id="npm-script">npm script 一覧</h2>
 
 - npm start（IP で接続（スマホなど色々な端末で確認できる））
 - npm run dev （上記同様）
