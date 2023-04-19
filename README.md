@@ -14,6 +14,8 @@
 - [npm を使用して開発したい場合](#npm)
 - [npm script 一覧](#npm-script)
 
+[contributing](https://github.com/koyo-code/vite/blob/main/CONTRIBUTING.md)
+
 <h2 id="include">インクルードの代替</h2>
 
 **components ディレクトリ**の中に **parts.html** を作る。
