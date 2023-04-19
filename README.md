@@ -35,10 +35,10 @@ src の中にディレクトリーを作ることで構成できる。
 
 src ディレクトリが親ディレクトリになります。
 
-[GOOD]
+[GOOD]<br>
 /about/index.html
 
-[BAD]
+[BAD]<br>
 /src/about/index.html
 
 ## 制作ディレクトリ
